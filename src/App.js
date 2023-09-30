@@ -6,7 +6,8 @@ import Img from './Img';
 import List from './List';
 
 import ProductsLayer from './Products/ProductsLayer';
-
+import NavApp from './router/nav';
+import LinkApp from './router/link';
 export default function App() {
   return (
     <div>
@@ -18,6 +19,10 @@ export default function App() {
       <List />
 
       <ProductsLayer />
+
+      <NavApp />
+
+      <LinkApp />
     </div>
   );
 }
